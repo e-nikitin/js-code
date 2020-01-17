@@ -1,8 +1,7 @@
 [Composition](#composition)
 
 ### Composition
-```
-
+```javascript
 const f1 = (arg) => (console.log('f1', arg), arg + 1)
 const f2 = (arg) => (console.log('f2', arg), arg + 1)
 const f3 = () => (console.log('f3'), 1)
@@ -21,5 +20,4 @@ const f = funcs.reduce(function(a, b) {
 // f == g
 
 console.log(f())
-
 ```
