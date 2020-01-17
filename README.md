@@ -1,6 +1,6 @@
 [Composition](#composition)
 
-## Composition
+### Composition
 ```
 
 const f1 = (arg) => (console.log('f1', arg), arg + 1)
