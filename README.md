@@ -20,4 +20,9 @@ const f = funcs.reduce(function(a, b) {
 // f == g
 
 console.log(f())
+//        output
+// f3
+// f2 1
+// f1 2
+// 3
 ```
