@@ -1,4 +1,8 @@
-[Composition](#composition)
+# Js best practics
+List of favorite moments
+
+- [Root](#root)
+  - [Composition](#composition)
 
 ### Composition
 ```javascript
