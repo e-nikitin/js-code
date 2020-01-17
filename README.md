@@ -50,4 +50,7 @@ const op = new Proxy(person, {
     return target[prop]
   },
 })
+//          output
+// op.name_role_position
+// "Jack Sparrow captain "
 ```
