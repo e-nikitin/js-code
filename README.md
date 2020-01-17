@@ -17,7 +17,7 @@ const f = funcs.reduce(function(a, b) {
   }
 })
 
-// f == g
+// f === g
 
 console.log(f())
 //        output
