@@ -3,6 +3,7 @@ List of favorite moments
 
 - [List](#root)
   - [Composition](#composition)
+  - [Proxy (get)](#proxy-get)
 
 ### Composition
 ```javascript
@@ -29,4 +30,24 @@ console.log(f())
 // f2 1
 // f1 2
 // 3
+```
+### Proxy get
+```javascript
+const person = {
+  name: 'Jack Sparrow',
+  job: 'Pirate',
+  role: 'captain',
+}
+
+const op = new Proxy(person, {
+  get(target, prop) {
+    if (!(prop in target)) {
+      return prop
+        .split('_')
+        .map((p) => target[p])
+        .join(' ')
+    }
+    return target[prop]
+  },
+})
 ```
