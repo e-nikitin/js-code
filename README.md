@@ -1,7 +1,7 @@
 # Js best practics
 List of favorite moments
 
-- [Root](#root)
+- [List](#root)
   - [Composition](#composition)
 
 ### Composition
