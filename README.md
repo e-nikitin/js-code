@@ -1,4 +1,4 @@
-# Js best practics
+# Js code
 List of favorite moments
 
 - [List](#root)
